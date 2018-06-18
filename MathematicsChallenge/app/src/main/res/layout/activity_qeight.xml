@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Qeight"
+    android:background="#119105">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOME"
+        android:id="@+id/btnHomeEight"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="#119105"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="3 X 6 ="
+        android:id="@+id/textView10"
+        android:layout_below="@+id/btnHomeEight"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:textColor="#ffffff"
+        android:textSize="50dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18"
+        android:id="@+id/btnCorrect8"
+        android:layout_below="@+id/textView10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
+        android:textSize="35dp"
+        android:textColor="#ffffff"
+        android:background="#119105" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="23"
+        android:id="@+id/btnWrong81"
+        android:layout_below="@+id/btnCorrect8"
+        android:layout_centerHorizontal="true"
+        android:background="#119105"
+        android:textColor="#ffffff"
+        android:textSize="35dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="41"
+        android:id="@+id/btnWrong82"
+        android:layout_below="@+id/btnWrong81"
+        android:layout_centerHorizontal="true"
+        android:textSize="35dp"
+        android:textColor="#ffffff"
+        android:background="#119105" />
+</RelativeLayout>
